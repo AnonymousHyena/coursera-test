@@ -4,22 +4,28 @@
 
 h1{
 	font-size: 175%;
-	align: center;
+	text-align: center;
+}
+
+p{
+	width: 90%;
+	height: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	background-color: grey;
+	padding: 35px 5px 5px 5px;
 }
 
 section{
 	float: left;
-	border: 1px solid black;
 	position: relative;
-	background-color: grey;
-	padding: 35px 5px 0px 5px;
-	margin: 10px;
 }
 
 div{
 	position: absolute;
-	right: 0;
-	top: 0;
+	right: 5%;
+	top: 16px;
 	padding: 5px 10px 5px 10px;
 	border: 1px solid black;
 	font-size: 125%;
@@ -47,9 +53,14 @@ div{
 	section{
 		width: 50%;
 		}
+
 	.full{
 		width: 100%;
 		}
+
+	.full p{
+		width: 95%;
+	}
 }
 
 @media (max-width: 767){}
