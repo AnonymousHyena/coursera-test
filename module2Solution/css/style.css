@@ -61,6 +61,10 @@ div{
 	.full p{
 		width: 95%;
 	}
+
+	.full div{
+		right: 2.6%;
+	}
 }
 
 @media (max-width: 767){}
